@@ -828,12 +828,8 @@
 		</array>
 		<key>Security</key>
 		<dict>
-			<key>AllowNvramReset</key>
-			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
-			<key>AllowToggleSip</key>
-			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -931,10 +927,10 @@
 				<string>boot-args</string>
 			</array>
 		</dict>
-		<key>LegacyEnable</key>
-		<false/>
 		<key>LegacyOverwrite</key>
 		<false/>
+		<key>WriteFlash</key>
+		<true/>
 		<key>LegacySchema</key>
 		<dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
@@ -961,8 +957,6 @@
 				<string>BootOrder</string>
 			</array>
 		</dict>
-		<key>WriteFlash</key>
-		<true/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -977,21 +971,21 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02506300J9GPF78C</string>
+			<string>C02738902GUJ0PG1F</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>1541</integer>
 			<key>ROM</key>
-			<data>QI1cVm2W</data>
+			<data>UC22kjAN</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>iMac17,1</string>
+			<string>iMac18,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02P7DZKGG7L</string>
+			<string>C02VF2YKJ1GJ</string>
 			<key>SystemUUID</key>
-			<string>EFCB9B19-D717-48B9-8E86-0AF19E099C54</string>
+			<string>A85AF6CB-B79F-419E-974F-05895A3FE759</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1080,6 +1074,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
@@ -1090,6 +1086,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
 			</dict>
@@ -1100,6 +1098,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenHfsPlus.efi</string>
 			</dict>
